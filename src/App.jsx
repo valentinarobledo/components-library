@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { Button } from './components';
 
 function App() {
   return (
     <div className="App">
       <h1>Componentes</h1>
-      <Button>Button</Button>
+      <div className="buttons">
+        <Button>Button</Button>
+        <Button className="bordered">Button</Button>
+        <Button className="btn-circle">Button</Button>
+      </div>
     </div>
   );
 }

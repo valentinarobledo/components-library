@@ -14,4 +14,19 @@
 		border: none;
 		background-color: lighten($primary, 10%);
 	}
+
+	&.btn-circle{
+		border-radius: 1.5rem;
+	}
+}
+
+.bordered{
+	border: 1px solid $primary;
+	color: $primary;
+	background-color: white;
+	&:hover{
+		background-color: white;
+		color: $primary;
+		border: 1px solid $secondary;
+	}
 }
